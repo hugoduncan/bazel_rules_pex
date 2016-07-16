@@ -182,9 +182,9 @@ def main():
         PythonInterpreter.from_binary(pybin).identity,
         extras={
             # TODO: Fix this to resolve automatically
-            ('setuptools', '18.0.1'): SETUPTOOLS_PATH,
+            ('setuptools', '20.10'): SETUPTOOLS_PATH,
             # FIXME: I don't think this accomplishes anything at all.
-            ('wheel', '0.23.0'): WHEEL_PATH,
+            ('wheel', '0.29.0'): WHEEL_PATH,
         })
 
     # resolve setuptools
