@@ -456,12 +456,15 @@ def pex_repositories():
 
   native.http_file(
       name = "wheel_whl",
-      url = "https://pypi.python.org/packages/a9/67/43036e2db1a344ad24ba468b6262826b3837ce629b7b4c09c18d3e2b5800/wheel-0.23.0-py2.py3-none-any.whl",
-      sha256 = "cbc6b2e274557b5e8ee8b61ca4c0c781702956a80cdbeb7ec0446834b5078082",
+      url = "https://pypi.python.org/packages/8a/e9/8468cd68b582b06ef554be0b96b59f59779627131aad48f8a5bce4b13450/wheel-0.29.0-py2.py3-none-any.whl#md5=d7db45db5c131af262b8ffccde46a88a",
+      # url = "https://pypi.python.org/packages/a9/67/43036e2db1a344ad24ba468b6262826b3837ce629b7b4c09c18d3e2b5800/wheel-0.23.0-py2.py3-none-any.whl",
+      # sha256 = "cbc6b2e274557b5e8ee8b61ca4c0c781702956a80cdbeb7ec0446834b5078082",
   )
 
   native.http_file(
       name = "setuptools_whl",
-      url = "https://pypi.python.org/packages/00/d5/1233f051f7ce669a2009301aa75f1efbd97ccde6b60236997fd9111d5297/setuptools-18.0.1-py2.py3-none-any.whl",
-      sha256 = "825814864707c12e3eb7878c9d9cc7189507022d53476b71ef833b3d28df0c9c",
+      url = "https://pypi.python.org/packages/a0/f9/d17efe888634046672f99514947c19d7568459a77c417576d99007671e42/setuptools-23.2.1-py2.py3-none-any.whl#md5=a8ce1eb27a53dec8f02a69865cbaf39d",
+
+      # url = "https://pypi.python.org/packages/00/d5/1233f051f7ce669a2009301aa75f1efbd97ccde6b60236997fd9111d5297/setuptools-18.0.1-py2.py3-none-any.whl",
+      # sha256 = "825814864707c12e3eb7878c9d9cc7189507022d53476b71ef833b3d28df0c9c",
   )
